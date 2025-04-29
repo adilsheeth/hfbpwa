@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './css/App.css';
+import { Button, Grid, Typography } from '@mui/material';
+import Footer from './components/layout/footer';
+import Header from './components/layout/header';
+import Login from './components/pages/login';
 
-function App() {
+export default function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This is a test! Let's see if this works.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      Help
     </div>
   );
 }
-
-export default App;
