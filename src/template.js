@@ -1,15 +1,14 @@
 import { Box, Typography } from "@mui/material"
-import Header from "../layout/header"
-import Footer from "../layout/footer"
+import Header from "./components/layout/header"
+import Footer from "./components/layout/footer"
 
-export default function Signup() {
-    //TODO Make this
+export default function Template() {
     return (
         <div>
             <Header/>
             <Box height={'84vh'}>
                 <Typography>
-                    Signup Template!
+                    Template!
                 </Typography>
             </Box>
             <Footer/>

@@ -8,7 +8,6 @@ function Login() {
     return (
         <div>
             <Header />
-            {/* center the items horizontally */}
             <Grid container direction={'column'} alignItems={'center'} justifyContent={'center'} height='84vh' spacing={5} padding={5}>
                 <Box maxWidth='50vh'>
                     <Typography variant='h6' color='primary' textAlign={'center'}>

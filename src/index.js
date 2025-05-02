@@ -7,15 +7,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: '/hfbpwa/',
+    path: '/',
     element: <App />
   },
   {
-    path: '/hfbpwa/login',
+    path: '/login',
     element: <Login />
   },
   {
-    path: '/hfbpwa/signup',
+    path: '/signup',
     element: <Signup />
   }
 ]);
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 
